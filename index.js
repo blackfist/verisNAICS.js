@@ -4,6 +4,10 @@
 * @param  {String} 2 to 6 digit numeric
 * @return {Boolean}
 */
+
+var fs = require('fs');
+var obj = JSON.parse(fs.readFileSync('codes.json', 'utf8'));
+
 module.exports = {
   validateNaics: function(inNAICS) {
 
@@ -14,17 +18,17 @@ module.exports = {
   },
 
   /**
-  * Valiate a NAICS codes using 2012 NAICS codes
+  * Given a NAICS code return the industry name
   *
   * @param  {String} 2 to 6 digit numeric
-  * @return {Boolean}
+  * @return {String}
   */
 
   translateNAICS: function(inNAICS) {
     inNAICS = inNAICS || "000";
 
-    if (inNAICS == "000") { return "Unknown"}
+    if (obj.hasOwnProperty(inNAICS)) { return obj[inNAICS] }
 
-    return "Kevin"
+    return "Unknown";
   }
 };
