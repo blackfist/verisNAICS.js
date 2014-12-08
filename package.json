@@ -1,0 +1,23 @@
+{
+  "name": "verisNAICS.js",
+  "version": "0.0.1",
+  "description": "A javascript module to validate NAICS codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/blackfist/verisNAICS.js.git"
+  },
+  "keywords": [
+    "naics",
+    "NAICS"
+  ],
+  "author": "Kevin Thompson <kevin.david.thompson@gmail.com>",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/blackfist/verisNAICS.js/issues"
+  },
+  "homepage": "https://github.com/blackfist/verisNAICS.js"
+}
