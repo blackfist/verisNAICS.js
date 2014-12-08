@@ -5,11 +5,11 @@ industry name when a valid NAICS code is given to it.
 
 ## Installation
 
-    npm install verisNAICS
+    npm install verisnaics
 
 ## Usage
 
-    var vn = require('verisNAICS'),
+    var vn = require('verisnaics'),
     validate = vn.validateNAICS,
     translate = vn.translateNAICS;
 
