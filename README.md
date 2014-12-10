@@ -3,6 +3,8 @@ A very simple module that can validate that a string is a valid North American
 Industry Classification Standard code. Also export a function to give the
 industry name when a valid NAICS code is given to it.
 
+[![Build Status](https://travis-ci.org/blackfist/verisNAICS.js.svg)](https://travis-ci.org/blackfist/verisNAICS.js)
+
 ## Installation
 
     npm install verisnaics
